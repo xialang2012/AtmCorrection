@@ -1,7 +1,6 @@
 #coding=utf-8
 import numpy as np
 
-# 将常用的变量定义在此 from c++ #define
 MAXNAMELENGTH = 200
 Nbands = 16
 DEG2RAD	= 0.0174532925199		#/* PI/180 */
@@ -35,7 +34,7 @@ refScale = [4.7466518E-5,2.603254E-5, 3.5012934E-5,3.070953E-5,3.183692E-5,3.464
 
 refBandNames = ['BAND1', 'BAND2', 'BAND3', 'BAND4', 'BAND5', 'BAND6', 'BAND7', 'BAND8', 'BAND9', 'BAND10', 'BAND11', 'BAND12', 'BAND13', 'BAND14', 'BAND15', 'BAND16']
 
-# 对象存放hdf数据
+# hdf object
 class SDSObject:
     def __init__(self):
         self.name = ""
