@@ -1,4 +1,4 @@
-# atmCorrection
+# AtmCorrection
 
 ## 1. Introduction
 This code is used to perform a quick atmospheric correction for MODIS L1B data (HDF4). The theory and parameters of the atmospheric correction can be found from NASA.
